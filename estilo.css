@@ -1,0 +1,138 @@
+:root{
+    --background-color-blue: lightblue;
+    --white-color:#ffffff;
+    --footer-color: #EEEEEE;
+    --legend-color:#777777;
+    --primary-color: #111111;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 38px;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 24px;
+    font-family: "Roboto";
+}
+h3{
+    font-size: 18px;
+    font-family: "Roboto";
+}
+p{
+    font-family: "Roboto";
+    opacity: 70%;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+/* nav */
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.nav-content{
+    display: flex;
+    justify-content: start;
+    align-items:stretch;
+    padding: 25px;
+    width: 70% ;
+    margin: 0 auto;
+}
+.nav img{
+    height: 26.9px;
+}
+
+.nav ul{
+    padding-top: 7px;
+    list-style: none;
+    display: flex;
+    padding-left: 92.4px;
+    color: var(--primary-color);
+}
+.nav ul li a{
+    display: block;
+    font-size: 19px;
+    color: inherit;
+    position: relative;
+    padding-left: 30px;
+}
+.section-content-1{
+    background-color: var(--background-color-blue);
+    display: flex;
+    justify-content: start;
+    align-items:stretch;
+    width: 70% ;
+    height: 366px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 93px;
+    
+}
+.blue-1{
+    padding: 60px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;   
+    width: 38%; 
+}
+.section-content-1 img{
+    height: 300px;
+    padding-left: 150px;
+    padding-top: 66px;
+}
+.section-content-2{
+    display: flex;
+    justify-content: start;
+    align-items:stretch;
+    width: 70% ;
+    height: 366px;
+    margin: 0 auto;   
+}
+.grid-receita{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.receita-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.receita-img{
+    width: 300px;
+    height: 140px;
+}
+
+.receita-img img{
+    border-radius: 15px;
+    width: 100%;
+ 
+}
+.grid-receita h3{
+    margin-top: 20px;
+}
+.receita-t{
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.footer{
+    margin: 0;
+    height:62px;
+    background: var(--footer-color) ;
+    text-align: center;
+   
+}
+.footer p{
+    padding-top: 20px;
+    font-size: 14px;
+}
